@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(rgb(226, 219, 219),#1944bb);
+    height: 725px;
+}
+@media (min-height: 500px) {
+    body {
+        height: 1120px;
+    }
+}
+@media (min-height: 1335px) {
+    body {
+        height: 1340px;
+    }
+}
+
+.header_text
+{
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.poll{
+    margin-top: 30px;
+}
+.poll img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.poll form div{
+    margin-left: 30.5%;
+}
+
+.field{
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+}
+
+.field_text{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 39.5%;
+    height: 50px;
+}
+
+
+form div {
+    margin-bottom: 10px;
+    width: 40%;
+}
+form div .question{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+form div .slider {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.button{
+    position: relative;
+    padding: 0.3em;
+    border: solid 1px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #ffffff;
+    display: flex;
+    width: 115px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    color: black;
+}
